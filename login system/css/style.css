@@ -1,0 +1,284 @@
+*{
+   font-family: 'MuseoModerno', sans-serif;
+   box-shadow: b;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; 
+   border:none;
+   text-decoration: none;
+   list-style: none;
+   font-family: 'MuseoModerno', sans-serif;
+}
+
+.btnLogin-popup{
+   display: inline-block;
+   padding: 7px 25px;
+   background: transparent;
+   color: #fff;
+   border: 1.5px solid #fff;
+   border-radius: 8px;
+   font-size: 15px;
+   font-weight: 400;
+   margin-left: 60px;
+   cursor: pointer;
+   transition: all ease .45s;
+}
+
+.btnLogin-popup:hover{
+   transform: scale(1.1);
+   background: #fff;
+   border: 2px solid #fff;
+   color: #162928;
+}
+
+body {
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: Linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(../images/helm.jpg);
+   background-size: cover;
+   background-position: center;
+   }
+
+.container{
+   position: relative;
+   height: 480px;
+   width: 450px;
+   background: transparent;
+   border-radius: 24px;
+   border: 2px solid rgba(257, 257, 257, .4);
+   backdrop-filter: blur(25px);
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   transition: all ease .35s;
+}
+
+.main-box{
+   padding: 50px;
+   width: 100%
+}
+
+.main-box form h3{
+   color: #fff;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 800;
+}
+
+.input-box{
+   position: relative;
+   height: 52p;
+   width: 100%;
+   border-bottom: 2px solid #fff;
+   margin: 46px 0;
+}
+
+.input-box label{
+   position :absolute;
+   left: 6px;
+   top: -90%;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 500;
+   transition: all ease .45s;
+}
+
+.input-box input{
+   background: transparent;
+   width: 100%;
+   height: 100%;
+   font-size: 14px;
+   font-weight: 400;
+   color: #fff;
+   padding: 0 30px 0 6px;
+}
+
+.input-box .icon{
+  position: absolute;
+  right: 9px; 
+  font-size: 19px;
+  color: #fff;
+  line-height: 15px;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+   top: -27px;
+}
+
+.check{
+   font-size: 13px;
+   font-weight: 400;
+   color: #fff;
+   margin: -27px 0 15px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.check label input{
+   margin-right: 5px;
+   accent-color: #fff;
+}
+
+.check a{
+   color: #fff;
+}
+.check a:hover{
+  text-decoration: underline; 
+}
+
+.main-btn{
+   background: transparent;
+   width: 100%;
+   height: 43px;
+   border-radius: 8px;
+   border: 2px solid rgba(255, 255, 255, 1);
+   font-size: 15px;
+   font-weight: 500;
+   color: #fff;
+   cursor: pointer;
+}
+
+.main-btn:hover{
+   background: #fff;
+   color: #162928;
+}
+
+.register{
+   text-align: center;
+   color: #fff;
+   font-size: 13px;
+   font-weight: 400;
+   margin: 25px 0 10px;
+}
+
+.register p a{
+   font-weight: 400;
+   color: #fff;
+}
+
+.register p a:hover{
+   text-decoration: underline;
+}
+
+.close-icon{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 44px;
+   height: 44px;
+   background: transparent;
+   color : #FFFFFF63;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 27px;
+   z-index: 1;
+   border-bottom-right-radius: 10px;
+   cursor: pointer;
+}
+
+/* Register Form*/
+.container-register{
+   position: relative;
+   height: 620px;
+   width: 510px;
+   background: transparent;
+   border-radius: 24px;
+   border: 2px solid rgba(257, 257, 257, .4);
+   backdrop-filter: blur(25px);
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   transition: all ease .35s;
+}
+
+.box-type{
+   position: relative;
+   height: 52p;
+   width: 100%;
+   margin: 46px 0;
+}
+
+.box-type label{
+   position :absolute;
+   left: 6px;
+   top: -80%;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 500;
+   transition: all ease .45s;
+}
+
+.box-type input{
+   background: transparent;
+   width: 100%;
+   height: 100%;
+   font-size: 14px;
+   font-weight: 400;
+   color: #fff;
+   padding: 0 30px 0 6px;
+}
+
+.box-type input:focus~label,
+.box-type input:valid~label{
+   top: -27px;
+}
+
+.box-type select{
+   background: transparent;
+   width: 100%;
+   height: 40px;
+   border-radius: 8px;
+   border: 2px solid rgba(255, 255, 255, 1);
+   font-size: 15px;
+   font-weight: 500;
+   color: #fff;
+   cursor: pointer;
+}
+
+.box-type select:hover{
+   background: #fff;
+   color: #162928;
+
+}
+
+.login{
+   text-align: center;
+   color: #fff;
+   font-size: 13px;
+   font-weight: 400;
+   margin: 15px 0 10px;
+}
+
+.login p a{
+   font-weight: 400;
+   color: #fff;
+}
+
+.login p a:hover{
+   text-decoration: underline;
+}
+
+.check-register{
+   font-size: 13px;
+   font-weight: 400;
+   color: #fff;
+   margin: -35px 0 15px;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.check-register label input{
+   margin-right: 5px;
+   accent-color: #fff;
+}
+/* sampe sini aja */
